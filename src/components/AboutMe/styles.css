@@ -1,0 +1,29 @@
+.about-me {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .about-me .bio {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-me .bio img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-me .bio p {
+    font-size: 16px;
+    color: #666;
+  }
