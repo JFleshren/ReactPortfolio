@@ -1,4 +1,3 @@
-// TODO: Set up proper API connection from client-side to server-side
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
