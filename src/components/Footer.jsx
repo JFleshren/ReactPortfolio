@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/jared-f-419348122/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          {/* Add more social links as needed */}
+          {/* Add more social links */}
         </div>
       </div>
     </footer>

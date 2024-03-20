@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Header } from './components/Header.js'; 
-import { Footer } from './components/Footer.js';
-import { AboutMe } from './components/AboutMe.js';
-import { Portfolio } from './components/Portfolio.js';
-import { Contact } from './components/Contact.js';
-import { Resume } from './components/Resume.js';
+import { Header } from './components/Header'; 
+import { Footer } from './components/Footer';
+import { AboutMe } from './components/AbooutMe';
+import { Portfolio } from './components/Portfolio';
+import { Contact } from './components/Contact';
+import { Resume } from './components/Resume';
 import reactLogo from './assets/react.svg';
-import viteLogo from './assets/vite.svg';
+import viteLogo from '../public/vite.svg';
 import './App.css';
 
 const App = () => {
