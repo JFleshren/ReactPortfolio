@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-const Contacts = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
-    name: 'Your Name',
-    email: 'YourEmail@email.com',
+    name: '',
+    email: '',
     message: ''
   });
 
@@ -68,4 +68,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Contact;

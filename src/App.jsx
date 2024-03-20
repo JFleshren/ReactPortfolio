@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header'; 
 import { Footer } from './components/Footer';
-import { AboutMe } from './components/AbooutMe';
+import { AboutMe } from './components/AboutMe';
 import { Portfolio } from './components/Portfolio';
 import { Contact } from './components/Contact';
 import { Resume } from './components/Resume';
@@ -20,9 +20,9 @@ const App = () => {
         <main className="main">
             <Routes>
             <Route exact path="/" Component={AboutMe} />
-            <Route path="/portfolio" Component={Portfolio} />
-            <Route path="/contact" Component={Contact} />
-            <Route path="/resume" Component={Resume} />
+            <Route path="/Portfolio" Component={Portfolio} />
+            <Route path="/Contact" Component={Contact} />
+            <Route path="/Resume" Component={Resume} />
           </Routes> 
           <>
             <div>
