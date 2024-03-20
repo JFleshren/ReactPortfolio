@@ -19,10 +19,10 @@ const App = () => {
         <Header />
         <main className="main">
           <Switch>
-            <Route exact path="/AboutMe" component={AboutMe} />
-            <Route path="/Portfolio" component={Portfolio} />
-            <Route path="/Contact" component={Contact} />
-            <Route path="/Resume" component={Resume} />
+            <Route exact path="/components/AboutMe" component={AboutMe} />
+            <Route path="/components/Portfolio" component={Portfolio} />
+            <Route path="/components/Contact" component={Contact} />
+            <Route path="/components/Resume" component={Resume} />
           </Switch>
           <>
             <div>
