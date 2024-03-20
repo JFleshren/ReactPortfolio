@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+{/*import image from '.jpg';*/}
 
 const AboutMe = () => {
   return (
@@ -9,7 +10,6 @@ const AboutMe = () => {
         <img src="" alt="" />
         <p>
           {/* Replace PLACEHOLDER with bio */}
-            PLACEHOLDER
         </p>
       </div>
     </div>

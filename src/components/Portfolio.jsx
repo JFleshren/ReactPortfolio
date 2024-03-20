@@ -1,16 +1,14 @@
-import React from 'react';
-
 const Portfolio = () => {
   const projects = [
     {
       title: 'Project 1',
-      description: 'Description of project 1.',
-      link: 'https://example.com/project1'
+      description: 'Description',
+      link: ''
     },
     {
       title: 'Project 2',
-      description: 'Description of project 2.',
-      link: 'https://example.com/project2'
+      description: 'Description',
+      link: ''
     },
     // Add more projects
   ];
