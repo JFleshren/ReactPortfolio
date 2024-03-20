@@ -2,7 +2,7 @@
     "name": "portfolio-react",
     "version": "1.0.0",
     "description": "A work portfolio utilizing React",
-    "main": "server/server.js",
+    "main": "/src/components/index.jsx",
     "scripts": {
         "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
         "seed": "cd server && npm run seed",
