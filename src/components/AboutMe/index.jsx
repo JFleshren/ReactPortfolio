@@ -6,8 +6,9 @@ const AboutMe = () => {
     <div className="about-me">
       <h2>About Me</h2>
       <div className="bio">
-        <img src="avatar.jpg" alt="My Avatar" />
+        <img src="" alt="" />
         <p>
+          {/* Replace PLACEHOLDER with bio */}
             PLACEHOLDER
         </p>
       </div>

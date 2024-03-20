@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Portfolio = () => {
-  // Define an array of project data (e.g., project titles, descriptions, links)
   const projects = [
     {
       title: 'Project 1',
@@ -13,7 +12,7 @@ const Portfolio = () => {
       description: 'Description of project 2.',
       link: 'https://example.com/project2'
     },
-    // Add more project objects as needed
+    // Add more projects
   ];
 
   return (

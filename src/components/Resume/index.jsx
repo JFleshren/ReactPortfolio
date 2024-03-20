@@ -1,14 +1,12 @@
-// src/components/Resume/index.jsx
-
 import React from 'react';
 
 const Resume = () => {
-  // Define your resume content here
+  
   const resumeContent = {
     name: 'Your Name',
     title: 'Your Title',
     summary: 'Summary of your experience, skills, etc.',
-    // Add more sections as needed
+    // Add any extra sections here
   };
 
   return (
@@ -18,7 +16,7 @@ const Resume = () => {
         <h3>{resumeContent.name}</h3>
         <h4>{resumeContent.title}</h4>
         <p>{resumeContent.summary}</p>
-        {/* Add more sections/components to display resume content */}
+        {/* Add more sections */}
       </div>
     </div>
   );
