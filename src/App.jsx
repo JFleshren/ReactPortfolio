@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header'; 
 import { Footer } from './components/Footer';
 import { AboutMe } from './components/AbooutMe';
@@ -18,12 +18,12 @@ const App = () => {
       <div className="app">
         <Header />
         <main className="main">
-          <Switch>
-            <Route exact path="/components/AboutMe" component={AboutMe} />
-            <Route path="/components/Portfolio" component={Portfolio} />
-            <Route path="/components/Contact" component={Contact} />
-            <Route path="/components/Resume" component={Resume} />
-          </Switch>
+            <Routes>
+            <Route exact path="/" Component={AboutMe} />
+            <Route path="/portfolio" Component={Portfolio} />
+            <Route path="/contact" Component={Contact} />
+            <Route path="/resume" Component={Resume} />
+          </Routes> 
           <>
             <div>
               <a href="https://vitejs.dev" target="_blank">
