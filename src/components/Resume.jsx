@@ -9,6 +9,12 @@ const Resume = () => {
     // Add any extra sections here
   };
 
+  const handleDownloadResume = () => {
+    // Replace 'resume.pdf' with the actual file name and extension of your resume
+    const resumeUrl = '../assets/ResumeDRAFT.pdf';
+    window.open(resumeUrl, '_blank');
+  };
+
   return (
     <div className="resume">
       <h2>Resume</h2>
@@ -17,6 +23,10 @@ const Resume = () => {
         <h4>{resumeContent.title}</h4>
         <p>{resumeContent.summary}</p>
         {/* Add more sections */}
+
+                {/* Download button */}
+                <a href="../assets/ResumeDRAFT.pdf" download>Download Resume</a>
+
       </div>
     </div>
   );
