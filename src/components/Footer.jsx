@@ -7,10 +7,10 @@ const Footer = () => {
         <p>&copy;Portfolio</p>
         <div className="social-links">
           <a href="https://github.com/JFleshren" target="_blank" rel="noopener noreferrer">
-            <FaGithub />
+            <FaGithub size={64} />
           </a>
           <a href="https://www.linkedin.com/in/jared-f-419348122/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin />
+            <FaLinkedin size={64} />
           </a>
           {/* Add more social links */}
         </div>

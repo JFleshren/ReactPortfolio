@@ -1,14 +1,14 @@
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description',
-      link: ''
+      title: 'Bee-Porter',
+      description: 'A simple application using MapBox API to mark bee swarm locations for local beekeepers. This project was built using React, Node.js, Express, and MongoDB.',
+      link: 'https://bee-porter-1.onrender.com/'
     },
     {
       title: 'Project 2',
-      description: 'Description',
-      link: ''
+      description: 'Description Placeholder',
+      link: 'Future Link Here'
     },
     // Add more projects
   ];

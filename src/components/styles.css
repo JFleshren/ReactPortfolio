@@ -1,29 +1,54 @@
+body {
+  background-color: #121212; 
+  color: #ffffff; 
+}
+
 .about-me {
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-me h2 {
-    font-size: 24px;
-    margin-bottom: 16px;
-    color: #333;
-  }
-  
-  .about-me .bio {
-    display: flex;
-    align-items: center;
-  }
-  
-  .about-me .bio img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .about-me .bio p {
-    font-size: 16px;
-    color: #666;
-  }
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow for contrast */
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #ffffff; 
+}
+
+.about-me .bio {
+  display: flex;
+  align-items: center;
+}
+
+.about-me .bio img {
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.about-me .bio p {
+  font-size: 16px;
+  color: #cccccc; 
+}
+
+.about-me .links a {
+  display: inline-block;
+  font-size: 20px; 
+  margin-right: 20px;
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+.about-me .links a:hover {
+  color: #00a0d2; 
+}
+
+.nav-list {
+  list-style-type: none; /* Remove the default bullet points */
+}
+
+.nav-item {
+  margin-right: 1em; /* Add some spacing between nav items */
+}
